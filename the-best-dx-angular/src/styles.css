@@ -1,0 +1,18 @@
+:root{
+    --primary-color:oklch(0.6 0.3 330);
+    --primary-color-contrast: oklch(from var(--primary-color) calc((0.5 - l) * 9999) c h);
+}
+html,body{
+    margin: 0;
+    overflow: hidden;
+}
+.application-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    overflow: hidden auto;
+}
