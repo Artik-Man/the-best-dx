@@ -1,0 +1,22 @@
+{
+  "name": "the-best-dx",
+  "version": "1.0.0",
+  "description": "[https://artik-man.github.io/the-best-dx/](https://artik-man.github.io/the-best-dx/)",
+  "homepage": "https://github.com/Artik-Man/the-best-dx#readme",
+  "bugs": {
+    "url": "https://github.com/Artik-Man/the-best-dx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artik-Man/the-best-dx.git"
+  },
+  "license": "ISC",
+  "author": "[Artik Man](mail@artik.me)",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.50.0"
+  }
+}
