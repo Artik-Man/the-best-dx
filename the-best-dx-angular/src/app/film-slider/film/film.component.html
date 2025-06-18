@@ -1,0 +1,17 @@
+@let _film = film();
+
+<section class="film">
+  <h3 class="title">{{ _film.title }}</h3>
+  <p class="year">{{ _film.year }}</p>
+  <picture class="image">
+    <img [src]="_film.image" [alt]="_film.title" />
+  </picture>
+  <div class="rating">{{ _film.rating }}</div>
+  <p class="description">{{ _film.description }}</p>
+  <p class="director">Режиссёр: {{ _film.director }}</p>
+  <ul class="actors">
+    @for (actor of _film.actors; track actor) {
+      <li>{{ actor }}</li>
+    }
+  </ul>
+</section>
