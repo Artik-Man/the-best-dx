@@ -1,0 +1,31 @@
+:host {
+  display: block;
+}
+.film {
+}
+
+.film .title {
+  position: sticky;
+  top: 0;
+  background-color: var(--base-0);
+}
+.film .year {
+}
+.film .image {
+  width: 100%;
+}
+.film .image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.film .rating {
+}
+.film .description {
+}
+.film .director {
+}
+.film .actors {
+}
