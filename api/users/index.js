@@ -1,4 +1,4 @@
-import { supabase } from '../../backend/supabase';
+import { supabase } from "../../backend/supabase.js";
 
 export default async function handler(req, res) {
   // Параметры фильтрации (например, ?username=alice)
